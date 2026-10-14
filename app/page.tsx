@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, MoveUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
-import { ProjectCard } from "@/components/ProjectCard";
+import { ProjectGallery } from "@/components/ProjectGallery";
 import { InquiryForm } from "@/components/InquiryForm";
 import { Reveal } from "@/components/Reveal";
-import { projects } from "@/lib/projects";
+
 
 const images = {
   hero: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2400&q=90",
@@ -51,7 +51,7 @@ export default function Home() {
 
       <section id="work" className="work-section section-pad" aria-labelledby="work-heading">
         <div className="container"><div className="section-heading work-heading"><div><p className="eyebrow section-kicker">Selected concepts</p><h2 id="work-heading">A closer look<br /><em>at the possibilities.</em></h2></div><p className="section-heading-note">A selection of visual explorations across hospitality, residential, and immersive spaces. Each concept is clearly identified as a visualization.</p></div>
-          <div className="project-grid">{projects.map((project, index) => <Reveal key={project.title} delay={index * 0.07}><ProjectCard project={project} index={index} /></Reveal>)}</div>
+          <ProjectGallery />
           <div className="work-footnote"><span className="footnote-mark">i</span><p>These are self-initiated portfolio concepts, not commissioned client projects. All examples are labelled as concept visualizations.</p></div>
         </div>
       </section>
