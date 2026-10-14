@@ -10,6 +10,7 @@ A self-initiated hospitality interiors website concept built with Next.js App Ro
 - Individual project case-study routes for The Guest Suite, The Retreat, and The Experience Room
 - Project overview, design challenge, creative direction, design considerations, gallery captions, and related-project navigation
 - Project cards linked to their detail pages
+- Interactive category and project-status filters, result counts, clear-filter controls, and empty-state messaging
 - Custom client-side inquiry validation with inline errors and accessible focus handling
 - Responsive layouts, reduced-motion support, and keyboard focus states
 - Page-specific metadata for project detail pages
