@@ -1,8 +1,18 @@
-# FORME Hospitality Studio — Portfolio Concept
+# FORME Hospitality Studio | Portfolio Concept
 
 A self-initiated hospitality interiors website concept built with Next.js App Router, React, Tailwind CSS v4, TypeScript, Framer Motion, and Lucide React.
 
-> This is a fictional studio and an independent portfolio concept. It is not commissioned work for the Upwork client. The sample projects are visual concepts and are explicitly labelled as such.
+> This is a fictional studio and an independent portfolio concept, not commissioned work for the Upwork client. Sample projects are concept visualizations and are explicitly labelled as such.
+
+## Implemented
+
+- Editorial homepage with responsive navigation, services, selected work, studio approach, and inquiry section
+- Individual project case-study routes for The Guest Suite, The Retreat, and The Experience Room
+- Project overview, design challenge, creative direction, design considerations, gallery captions, and related-project navigation
+- Project cards linked to their detail pages
+- Custom client-side inquiry validation with inline errors and accessible focus handling
+- Responsive layouts, reduced-motion support, and keyboard focus states
+- Page-specific metadata for project detail pages
 
 ## Run locally
 
@@ -34,10 +44,10 @@ npm run start
 2. Import it in Netlify and select the Next.js framework preset.
 3. Use the default Next.js adapter/build configuration offered by Netlify.
 
-## Notes before production
+## Remaining scope and production notes
 
 - The inquiry form is a front-end demonstration only. It validates required fields locally but does not transmit or store submissions. Connect a server action/API route and an email or CRM provider before using it for real leads.
-- Project content currently lives in lib/projects.ts. It is structured for later migration to a headless CMS.
-- Remote sample images are sourced from Unsplash URLs. Replace them with licensed, project-appropriate imagery before commercial use, and verify image rights and final alt text.
-- The mobile navigation, reduced-motion behavior, focus states, and responsive layouts are included.
-- The current first release implements the homepage. The complete 13–15-page brief, CMS editing, gallery filtering, blog, CRM connection, and multilingual content are future phases, not yet implemented.
+- Project content currently lives in `lib/projects.ts`. It is structured for later migration to a headless CMS.
+- Gallery filtering, a blog, CMS editing, CRM integration, and multilingual content remain future implementation phases from the wider 13–15-page brief.
+- Remote sample images use Unsplash URLs. Replace them with licensed, project-appropriate imagery before commercial use, and verify image rights and final alt text.
+- The case-study narratives describe design intent for fictional concepts. They do not claim that a project was commissioned, installed, or completed.
