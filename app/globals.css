@@ -243,3 +243,30 @@ h2 em,h1 em{font-weight:400}
  .detail-next h2{font-size:35px}
  .detail-cta h2{font-size:clamp(48px,11vw,70px)}
 }
+
+/* Interactive selected-work filters */
+.project-gallery{width:100%}
+.gallery-filter-panel{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:20px}
+.gallery-filter-group{min-width:0;flex:1}
+.gallery-filter-label{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#827b70;margin-bottom:13px}
+.gallery-filter-options{display:flex;flex-wrap:wrap;gap:7px}
+.gallery-filter-chip{appearance:none;background:transparent;border:1px solid rgba(41,41,35,.22);padding:10px 13px;color:#625e56;font-size:10px;line-height:1.2;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.gallery-filter-chip:hover{border-color:var(--charcoal);color:var(--charcoal)}
+.gallery-filter-chip.is-active{background:var(--charcoal);border-color:var(--charcoal);color:var(--limestone)}
+.gallery-filter-chip:focus-visible,.gallery-status-row select:focus-visible,.gallery-results-line button:focus-visible,.gallery-empty button:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
+.gallery-status-row{min-width:190px}
+.gallery-status-row select{display:block;width:100%;max-width:245px;border:0;border-bottom:1px solid rgba(41,41,35,.3);border-radius:0;background:transparent;color:var(--charcoal);font-size:11px;padding:10px 0;outline-offset:4px}
+.gallery-results-line{display:flex;align-items:center;gap:14px;min-height:34px;margin-bottom:18px;font-size:9px;color:#827b70}
+.gallery-results-line>span:first-child{color:var(--charcoal);font-weight:600}
+.gallery-results-line button,.gallery-empty button{border:0;border-bottom:1px solid var(--bronze);padding:3px 0;background:transparent;color:var(--bronze);font-size:9px;cursor:pointer}
+.gallery-empty{padding:55px 20px;text-align:center;border:1px solid var(--line);color:#6e695f}
+.gallery-empty p{font-family:var(--display),Georgia,serif;font-size:26px;margin:0 0 14px}
+@media(max-width:760px){
+ .gallery-filter-panel{align-items:stretch;flex-direction:column;gap:22px;padding:21px 0}
+ .gallery-filter-label{margin-bottom:11px}
+ .gallery-filter-options{gap:7px}
+ .gallery-filter-chip{font-size:9px;padding:10px 11px}
+ .gallery-status-row{min-width:0}
+ .gallery-status-row select{max-width:none}
+ .gallery-results-line{flex-wrap:wrap;gap:8px 12px;margin-bottom:14px}
+}
