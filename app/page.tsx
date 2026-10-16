@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, MoveUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
-import { ProjectGallery } from "@/components/ProjectGallery";
+import { ProjectCard } from "@/components/ProjectCard";
+import { projects } from "@/lib/projects";
 import { InquiryForm } from "@/components/InquiryForm";
 import { Reveal } from "@/components/Reveal";
 
@@ -27,7 +28,7 @@ export default function Home() {
         <div className="container hero-content">
           <Reveal><p className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> Hospitality interiors & bespoke experiences</p></Reveal>
           <Reveal delay={0.08}><h1 id="hero-heading">Spaces designed<br />to make people <em>feel</em><br />something.</h1></Reveal>
-          <Reveal delay={0.16}><div className="hero-bottom"><p>Thoughtful interiors, considered furnishing, and distinctive environments for hospitality properties and the people who experience them.</p><div className="hero-actions"><Link href="#inquiry" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link><Link href="#work" className="hero-secondary-link">Explore our work <ArrowDown size={15} /></Link></div></div></Reveal>
+          <Reveal delay={0.16}><div className="hero-bottom"><p>Thoughtful interiors, considered furnishing, and distinctive environments for hospitality properties and the people who experience them.</p><div className="hero-actions"><Link href="#inquiry" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link><Link href="/work" className="hero-secondary-link">Explore our work <ArrowDown size={15} /></Link></div></div></Reveal>
         </div>
         <div className="hero-caption"><span>Considered by design.</span><span>Made for experience.</span></div>
       </section>
@@ -51,7 +52,8 @@ export default function Home() {
 
       <section id="work" className="work-section section-pad" aria-labelledby="work-heading">
         <div className="container"><div className="section-heading work-heading"><div><p className="eyebrow section-kicker">Selected concepts</p><h2 id="work-heading">A closer look<br /><em>at the possibilities.</em></h2></div><p className="section-heading-note">A selection of visual explorations across hospitality, residential, and immersive spaces. Each concept is clearly identified as a visualization.</p></div>
-          <ProjectGallery />
+          <div className="project-grid">{projects.slice(0, 2).map((project, index) => <Reveal key={project.slug} delay={index * 0.07}><ProjectCard project={project} index={index} /></Reveal>)}</div>
+          <div className="homepage-work-link"><Link href="/work" className="text-link">Explore the full portfolio <ArrowRight size={15} /></Link></div>
           <div className="work-footnote"><span className="footnote-mark">i</span><p>These are self-initiated portfolio concepts, not commissioned client projects. All examples are labelled as concept visualizations.</p></div>
         </div>
       </section>
