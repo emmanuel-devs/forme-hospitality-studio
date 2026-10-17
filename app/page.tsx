@@ -23,7 +23,7 @@ export default function Home() {
     <main id="top">
       <SiteHeader />
       <section className="hero" aria-labelledby="hero-heading">
-        <div className="hero-image"><Image src={images.hero} alt="Refined hospitality interior with natural materials, sculptural furnishings, and warm daylight" fill priority sizes="100vw" className="cover-image" /></div>
+        <div className="hero-image"><Image src={images.hero} alt="Refined hospitality interior with natural materials, sculptural furnishings, and warm daylight" fill priority sizes="100vw" className="cover-image" /><div className="hero-image-grain" aria-hidden="true" /></div>
         <div className="hero-overlay" />
         <div className="container hero-content">
           <Reveal><p className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> Hospitality interiors & bespoke experiences</p></Reveal>
