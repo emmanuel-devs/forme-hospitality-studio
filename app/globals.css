@@ -307,3 +307,12 @@ h2 em,h1 em{font-weight:400}
  .portfolio-concept-note{margin-top:28px}
  .portfolio-cta h2{font-size:clamp(50px,11vw,72px)}
 }
+
+/* Cinematic but restrained homepage treatment */
+.hero-image{overflow:hidden}
+.hero-image .cover-image{transform:scale(1.035);animation:hero-settle 1.8s cubic-bezier(.2,.7,.2,1) both}
+.hero-image-grain{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.2'/%3E%3C/svg%3E");mix-blend-mode:soft-light}
+.hero-caption span{opacity:0;animation:caption-arrive .7s ease-out forwards}
+.hero-caption span:nth-child(2){animation-delay:.18s}
+@keyframes caption-arrive{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.hero-image .cover-image,.hero-caption span{animation:none;opacity:1;transform:none}}
