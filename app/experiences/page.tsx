@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import { EditorialPage } from "@/components/EditorialPage";
+
+export const metadata: Metadata = { title: "Bespoke Hospitality Experiences | FORME", description: "Custom themed bedrooms, entertainment rooms, sculptural decor, and immersive hospitality environments designed to be remembered." };
+const cards = [
+ {title:"Themed Bedrooms",description:"Immersive rooms with a distinct point of view, shaped around a story, mood, or destination.",href:"/experiences/themed-bedrooms",image:"https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85",eyebrow:"IMMERSIVE"},
+ {title:"Entertainment Rooms",description:"Atmospheric spaces designed for gathering, play, celebration, and shared experiences.",href:"/experiences/entertainment-rooms",image:"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",eyebrow:"GATHER"},
+ {title:"Custom Themed Beds",description:"Sculptural focal points and made-to-concept details that give a room its unmistakable identity.",href:"/experiences/custom-themed-beds",image:"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",eyebrow:"BESPOKE"},
+];
+export default function ExperiencesPage(){return <EditorialPage eyebrow="Experiences / Bespoke environments" title="Spaces that become" italicTitle="the story." intro="Custom immersive environments, sculptural details, and themed spaces designed to give people something worth remembering." image="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2200&q=85" imageAlt="Expressive interior with sculptural furniture and carefully layered lighting" sectionTitle="Make the experience part of the destination." sectionCopy="A distinctive room can become the reason a guest books, gathers, celebrates, or shares the experience. We develop visual directions where concept, materials, function, and atmosphere work together." cards={cards} ctaTitle="Have an idea that deserves a room of its own?" />;}
