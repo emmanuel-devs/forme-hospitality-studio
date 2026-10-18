@@ -18,6 +18,7 @@ export function InquiryForm() {
     const requiredFields = [
       ["projectType", "Please select a project type."],
       ["location", "Please enter the property location."],
+      ["propertySize", "Please share the approximate property size."],
       ["budget", "Please select an approximate budget."],
       ["timeline", "Please select a target timeline."],
       ["name", "Please enter your name."],
@@ -73,6 +74,7 @@ export function InquiryForm() {
       <label>Property location <span>*</span><input name="location" placeholder="City, country" {...fieldProps("location")} />{errors.location && <span className="field-error" id="location-error">{errors.location}</span>}</label>
     </div>
     <div className="form-row">
+      <label>Approximate property size <span>*</span><input name="propertySize" placeholder="e.g. 12 guest rooms, 4,000 sq ft" {...fieldProps("propertySize")} />{errors.propertySize && <span className="field-error" id="propertySize-error">{errors.propertySize}</span>}</label>
       <label>Approximate project budget <span>*</span><select name="budget" defaultValue="" {...fieldProps("budget")}><option value="" disabled>Select a range</option><option>Under $25,000</option><option>$25,000–$75,000</option><option>$75,000–$150,000</option><option>$150,000–$300,000</option><option>$300,000+</option><option>To be determined</option></select>{errors.budget && <span className="field-error" id="budget-error">{errors.budget}</span>}</label>
       <label>Target timeline <span>*</span><select name="timeline" defaultValue="" {...fieldProps("timeline")}><option value="" disabled>Select a timeline</option><option>As soon as possible</option><option>Within 3 months</option><option>3–6 months</option><option>6–12 months</option><option>Exploring options</option></select>{errors.timeline && <span className="field-error" id="timeline-error">{errors.timeline}</span>}</label>
     </div>
@@ -80,7 +82,13 @@ export function InquiryForm() {
       <label>Your name <span>*</span><input name="name" autoComplete="name" placeholder="Full name" {...fieldProps("name")} />{errors.name && <span className="field-error" id="name-error">{errors.name}</span>}</label>
       <label>Work email <span>*</span><input name="email" type="email" autoComplete="email" placeholder="you@company.com" {...fieldProps("email")} />{errors.email && <span className="field-error" id="email-error">{errors.email}</span>}</label>
     </div>
-    <label>Tell us a little about the property <textarea name="details" rows={4} placeholder="Property size, goals, rooms, or anything else we should know…" /></label>
+    <fieldset className="interest-fieldset">
+      <legend>Areas of interest <span>(select all that apply)</span></legend>
+      <div className="interest-options">
+        {["Interior design & furnishing", "Soft furnishing & styling", "Themed bedrooms", "Entertainment spaces", "Custom themed beds", "Trade partnership"].map((interest) => <label key={interest}><input type="checkbox" name="areasOfInterest" value={interest} /><span>{interest}</span></label>)}
+      </div>
+    </fieldset>
+    <label>Tell us a little about the property <textarea name="details" rows={4} placeholder="Goals, rooms, practical requirements, or anything else we should know…" /></label>
     <button className="button button-dark form-submit" type="submit">Send project inquiry <ArrowUpRight size={16} /></button>
     <p className="form-note">This is a portfolio demonstration. Form submissions are not transmitted or saved.</p>
   </form>;
