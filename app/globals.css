@@ -380,3 +380,16 @@ h2 em,h1 em{font-weight:400}
 .quote-next-inner .detail-eyebrow{margin-bottom:14px}
 .quote-next h2{font-size:clamp(32px,4vw,48px);margin:0}
 @media(max-width:760px){.quote-intro{padding:125px 0 48px}.quote-intro .portfolio-back{margin-bottom:37px}.quote-intro h1{font-size:clamp(57px,12vw,82px);margin:18px 0 27px}.quote-intro-bottom{align-items:flex-start;flex-direction:column;gap:14px}.quote-intro-bottom span{white-space:normal;font-size:8px}.quote-form-grid{grid-template-columns:1fr;gap:36px}.quote-aside h2{font-size:clamp(39px,10vw,55px)}.quote-next-inner{align-items:flex-start;flex-direction:column;gap:24px}}
+
+.quote-page .site-header{color:var(--charcoal);border-bottom-color:rgba(41,41,35,.16)}
+.quote-page .nav-cta{border-left-color:rgba(41,41,35,.2)}
+.interest-fieldset{border:0;border-top:1px solid var(--line);padding:20px 0 0;margin:0;min-width:0}
+.interest-fieldset legend{padding:0 0 14px;font-size:10px;font-weight:600;color:#4b4941}
+.interest-fieldset legend span{font-weight:400;color:#827b70}
+.interest-options{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px}
+.interest-options label{display:flex;flex-direction:row!important;align-items:center;gap:9px!important;font-size:10px!important;font-weight:400!important;cursor:pointer}
+.interest-options input{appearance:none;width:15px!important;height:15px;min-width:15px;border:1px solid rgba(41,41,35,.35)!important;padding:0!important;margin:0;display:grid;place-content:center;cursor:pointer}
+.interest-options input:checked{background:var(--charcoal);border-color:var(--charcoal)!important}
+.interest-options input:checked:before{content:"";width:7px;height:4px;border-left:1px solid white;border-bottom:1px solid white;transform:rotate(-45deg) translateY(-1px)}
+.interest-options label span{color:#625e56!important}
+@media(max-width:760px){.interest-options{grid-template-columns:1fr}}
