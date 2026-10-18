@@ -32,7 +32,7 @@ export function EditorialPage({ eyebrow, title, italicTitle, intro, image, image
         <p className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> {eyebrow}</p>
         <h1>{title}{italicTitle && <><br /><em>{italicTitle}</em></>}</h1>
         <p className="editorial-hero-intro">{intro}</p>
-        <Link href="/#inquiry" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link>
+        <Link href="/quote" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link>
       </div>
       <span className="editorial-hero-label">{imageLabel ?? "FORME / Studio perspective"}</span>
     </section>
