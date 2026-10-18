@@ -40,9 +40,9 @@ export const projects: Project[] = [
       { title: "Guest-first details", description: "Bedside lighting, accessible surfaces, and a considered place for everyday belongings keep the concept grounded in hospitality use." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=85", alt: "Neutral boutique guestroom with layered bedding", caption: "01 / The room at a glance" },
-      { image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85", alt: "Warm contemporary interior with curated furniture", caption: "02 / Material and furniture language" },
-      { image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85", alt: "Natural finishes and contemporary interior details", caption: "03 / Texture and tonal contrast" }
+      { image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=2000&q=85", alt: "Neutral boutique guestroom with layered bedding", caption: "01 / The room at a glance" },
+      { image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=2000&q=85", alt: "Warm contemporary interior with curated furniture", caption: "02 / Material and furniture language" },
+      { image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=2000&q=85", alt: "Natural finishes and contemporary interior details", caption: "03 / Texture and tonal contrast" }
     ],
     featured: true
   },
@@ -66,9 +66,9 @@ export const projects: Project[] = [
       { title: "A memorable first impression", description: "A coherent palette carries through the main view, giving the space a recognisable character in photographs and in person." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85", alt: "Living room concept with warm natural materials", caption: "01 / The shared living space" },
-      { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85", alt: "Contemporary interior with calm tonal palette", caption: "02 / A calm, cohesive palette" },
-      { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85", alt: "Modern living area with sculptural furnishings", caption: "03 / Shape and proportion" }
+      { image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85", alt: "Living room concept with warm natural materials", caption: "01 / The shared living space" },
+      { image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85", alt: "Contemporary interior with calm tonal palette", caption: "02 / A calm, cohesive palette" },
+      { image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85", alt: "Modern living area with sculptural furnishings", caption: "03 / Shape and proportion" }
     ]
   },
   {
@@ -91,9 +91,9 @@ export const projects: Project[] = [
       { title: "Immersion with intention", description: "Contrast and texture create drama, while clear circulation and comfortable seating keep the room practical." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85", alt: "Contemporary room with strong architectural lines", caption: "01 / The overall atmosphere" },
-      { image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=85", alt: "Layered lighting and tactile interior materials", caption: "02 / Light, shadow, and texture" },
-      { image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=85", alt: "Curated interior styling and material details", caption: "03 / The finishing language" }
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1800&q=85", alt: "Contemporary room with strong architectural lines", caption: "01 / The overall atmosphere" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1800&q=85", alt: "Layered lighting and tactile interior materials", caption: "02 / Light, shadow, and texture" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1800&q=85", alt: "Curated interior styling and material details", caption: "03 / The finishing language" }
     ]
   },
   {
@@ -116,9 +116,9 @@ export const projects: Project[] = [
       { title: "Personal, not over-styled", description: "A restrained selection of objects lets the architecture and key furniture pieces remain the focus." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1800&q=85", alt: "Residential living room with warm natural materials", caption: "01 / The living space" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Sculptural furniture and considered proportions", caption: "02 / Shape and proportion" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Calm neutral palette and tactile surfaces", caption: "03 / A restrained material palette" }
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=2000&q=85", alt: "Residential living room with warm natural materials", caption: "01 / The living space" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=2000&q=85", alt: "Sculptural furniture and considered proportions", caption: "02 / Shape and proportion" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=2000&q=85", alt: "Calm neutral palette and tactile surfaces", caption: "03 / A restrained material palette" }
     ]
   },
   {
@@ -141,9 +141,9 @@ export const projects: Project[] = [
       { title: "Comfort in transition", description: "Seating and lighting support short waits, informal meetings, and a more relaxed check-in experience." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1800&q=85", alt: "Boutique lobby concept with layered architectural finishes", caption: "01 / The arrival view" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Architectural details and contemporary furniture", caption: "02 / Architectural character" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Warm furniture and finish palette", caption: "03 / Furniture and finish language" }
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Boutique lobby concept with layered architectural finishes", caption: "01 / The arrival view" },
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Architectural details and contemporary furniture", caption: "02 / Architectural character" },
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Warm furniture and finish palette", caption: "03 / Furniture and finish language" }
     ]
   },
   {
@@ -166,9 +166,9 @@ export const projects: Project[] = [
       { title: "Comfort first", description: "Seating positions and circulation are considered together so the experience feels relaxed, not over-designed." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1800&q=85", alt: "Entertainment suite concept with composed furniture arrangement", caption: "01 / The room composition" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Material contrast and atmospheric interior detail", caption: "02 / Texture and contrast" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=1600&q=85", alt: "Furniture and warm lighting detail", caption: "03 / The finishing details" }
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Entertainment suite concept with composed furniture arrangement", caption: "01 / The room composition" },
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Material contrast and atmospheric interior detail", caption: "02 / Texture and contrast" },
+      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Furniture and warm lighting detail", caption: "03 / The finishing details" }
     ]
   }
 ];
