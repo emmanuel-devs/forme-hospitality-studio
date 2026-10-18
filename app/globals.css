@@ -393,3 +393,15 @@ h2 em,h1 em{font-weight:400}
 .interest-options input:checked:before{content:"";width:7px;height:4px;border-left:1px solid white;border-bottom:1px solid white;transform:rotate(-45deg) translateY(-1px)}
 .interest-options label span{color:#625e56!important}
 @media(max-width:760px){.interest-options{grid-template-columns:1fr}}
+
+/* Homepage invitation: keep the editorial rhythm, route the full form to /quote */
+.homepage-contact-section{background:#e7e0d5}
+.homepage-contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:end}
+.homepage-contact-inner h2{font-size:clamp(42px,5.8vw,72px);line-height:.96;letter-spacing:-.035em;margin:18px 0 0;max-width:600px}
+.homepage-contact-copy{max-width:490px}
+.homepage-contact-copy>p{font-size:13px;line-height:1.95;color:#625e56;margin:0 0 25px}
+.homepage-contact-note{display:block;margin-top:23px;color:#827b70;font-size:9px;letter-spacing:.11em;text-transform:uppercase}
+.gallery-secondary-filters{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.gallery-secondary-filters .gallery-status-row{display:flex;align-items:center;gap:12px}
+.gallery-secondary-filters .gallery-status-row select{max-width:260px}
+@media(max-width:760px){.homepage-contact-inner{grid-template-columns:1fr;gap:25px}.homepage-contact-inner h2{font-size:clamp(42px,10vw,60px)}.homepage-contact-copy>p{font-size:12px}.gallery-secondary-filters{align-items:flex-start;flex-direction:column;gap:14px}.gallery-secondary-filters .gallery-status-row{width:100%;justify-content:space-between}.gallery-secondary-filters .gallery-status-row select{max-width:62%}}
