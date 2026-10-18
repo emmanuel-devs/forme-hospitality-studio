@@ -35,7 +35,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         <div className="detail-hero-shade" />
         <SiteHeader />
         <div className="container detail-hero-content">
-          <Link href="/#work" className="detail-back-link"><ArrowLeft size={15} /> Back to selected work</Link>
+          <Link href="/work" className="detail-back-link"><ArrowLeft size={15} /> Back to selected work</Link>
           <p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> {project.status}</p>
           <h1>{project.title.split(" ").slice(0, -1).join(" ")} <em>{project.title.split(" ").slice(-1)}</em></h1>
           <p className="detail-hero-intro">{project.intro}</p>
@@ -79,7 +79,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         <div className="container detail-next-inner"><div><p className="eyebrow section-kicker">Continue exploring</p><h2>Next up: <em>{nextProject.title}</em></h2></div><Link href={`/work/${nextProject.slug}`} className="button button-dark">View next concept <ArrowUpRight size={16} /></Link></div>
       </section>
 
-      <section className="detail-cta"><div className="container detail-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Have a space in mind?</p><h2>Let’s shape something<br /><em>considered.</em></h2><p>Tell us about your property, your goals, and the experience you want people to remember.</p><Link href="/#inquiry" className="button button-light">Discuss your project <ArrowRight size={16} /></Link></div></section>
+      <section className="detail-cta"><div className="container detail-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Have a space in mind?</p><h2>Let’s shape something<br /><em>considered.</em></h2><p>Tell us about your property, your goals, and the experience you want people to remember.</p><Link href="/quote" className="button button-light">Discuss your project <ArrowRight size={16} /></Link></div></section>
 
       <footer className="site-footer"><div className="container footer-top"><Link href="/" className="wordmark footer-wordmark"><span className="wordmark-main">FORME</span><span className="wordmark-sub">HOSPITALITY STUDIO</span></Link><p>Spaces designed to make people feel something.</p><Link href="/#top" className="back-top">Back to top ↑</Link></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} FORME Hospitality Studio</span><span>Independent portfolio concept · Not a real client studio</span><span>Interiors · Experiences · Partnerships</span></div></footer>
     </main>
