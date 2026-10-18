@@ -6,16 +6,16 @@ import { useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Interiors", href: "/#interiors" },
-  { label: "Experiences", href: "/#experiences" },
+  { label: "Interiors", href: "/interiors" },
+  { label: "Experiences", href: "/experiences" },
   { label: "Selected work", href: "/work" },
-  { label: "Our approach", href: "/#approach" },
+  { label: "Our process", href: "/process" },
+  { label: "About", href: "/about" },
 ];
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const destination = (href: string) => href.startsWith("/") ? href : `/${href}`;
   const inquiryHref = pathname === "/" ? "#inquiry" : "/#inquiry";
   return (
     <header className="site-header">
@@ -25,7 +25,7 @@ export function SiteHeader() {
           <span className="wordmark-sub">HOSPITALITY STUDIO</span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
-          {links.map((link) => <Link key={link.href} href={destination(link.href)}>{link.label}</Link>)}
+          {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
         </nav>
         <Link className="nav-cta" href={inquiryHref}>Discuss your project <ArrowUpRight size={15} strokeWidth={1.6} /></Link>
         <button className="menu-toggle" aria-label={open ? "Close navigation" : "Open navigation"} aria-expanded={open} onClick={() => setOpen(!open)}>
@@ -33,7 +33,9 @@ export function SiteHeader() {
         </button>
       </div>
       {open && <nav className="mobile-nav" aria-label="Mobile navigation">
-        {links.map((link) => <Link key={link.href} href={destination(link.href)} onClick={() => setOpen(false)}>{link.label}</Link>)}
+        {links.map((link) => <Link key={link.href} href={link.href} onClick={() => setOpen(false)}>{link.label}</Link>)}
+        <Link href="/trade" onClick={() => setOpen(false)}>Trade</Link>
+        <Link href="/partners" onClick={() => setOpen(false)}>Partners</Link>
         <Link href={inquiryHref} className="mobile-nav-cta" onClick={() => setOpen(false)}>Discuss your project <ArrowUpRight size={16} /></Link>
       </nav>}
     </header>
