@@ -54,7 +54,7 @@ export function EditorialPage({ eyebrow, title, italicTitle, intro, image, image
     <section className="editorial-process">
       <div className="container editorial-process-grid"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> How we work</p><div><h2>{processTitle}</h2><p>{processCopy}</p><Link href="/process" className="text-link">Discover our process <ArrowRight size={15} /></Link></div></div>
     </section>
-    <section className="editorial-cta"><div className="container editorial-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Start a conversation</p><h2>{ctaTitle}</h2><p>{ctaCopy}</p><Link href="/#inquiry" className="button button-light">Tell us about your project <ArrowUpRight size={16} /></Link></div></section>
+    <section className="editorial-cta"><div className="container editorial-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Start a conversation</p><h2>{ctaTitle}</h2><p>{ctaCopy}</p><Link href="/quote" className="button button-light">Tell us about your project <ArrowUpRight size={16} /></Link></div></section>
     <footer className="site-footer"><div className="container footer-top"><Link href="/" className="wordmark footer-wordmark"><span className="wordmark-main">FORME</span><span className="wordmark-sub">HOSPITALITY STUDIO</span></Link><p>Spaces designed to make people feel something.</p><Link href="/#top" className="back-top">Back to studio ↑</Link></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} FORME Hospitality Studio</span><span>Independent portfolio concept · Not a real client studio</span><span>Interiors · Experiences · Partnerships</span></div></footer>
   </main>;
 }
