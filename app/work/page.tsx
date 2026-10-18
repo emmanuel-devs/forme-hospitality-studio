@@ -27,7 +27,7 @@ export default function WorkPage() {
       <section className="portfolio-listing section-pad" aria-labelledby="portfolio-heading">
         <div className="container">
           <div className="portfolio-listing-heading">
-            <div><p className="eyebrow section-kicker">Explore the collection</p><h2 id="portfolio-heading">Selected work<span> (03)</span></h2></div>
+            <div><p className="eyebrow section-kicker">Explore the collection</p><h2 id="portfolio-heading">Selected work<span> (06)</span></h2></div>
             <p>Use the collection filters to explore by space or project status.</p>
           </div>
           <ProjectGallery />
