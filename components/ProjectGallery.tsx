@@ -6,9 +6,9 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { Reveal } from "@/components/Reveal";
 import { projects, type ProjectStatus } from "@/lib/projects";
 
-const categories = ["All work", ...Array.from(new Set(projects.map((project) => project.category)))];
+const categories = ["All work", "Vacation Rentals", "Hotels & Boutique Properties", "Multifamily & Student Housing", "Luxury Residential", "Immersive Experiences"];
 const statuses = ["All statuses", "Concept Visualization", "Completed Installation"] as const;
-const roomTypes = ["All room types", ...Array.from(new Set(projects.map((project) => project.type)))];
+const roomTypes = ["All room types", "Guestroom", "Living Space", "Lobby & Arrival", "Entertainment Room", "Themed Bedroom", "Custom Themed Bed", "Multifamily Common Area"];
 
 export function ProjectGallery() {
   const [category, setCategory] = useState("All work");
@@ -32,7 +32,7 @@ export function ProjectGallery() {
     <div className="project-gallery">
       <div className="gallery-filter-panel" aria-label="Filter portfolio projects">
         <div className="gallery-filter-group">
-          <span className="gallery-filter-label">Explore by property or project type</span>
+          <span className="gallery-filter-label">Explore by property or experience type</span>
           <div className="gallery-filter-options" role="group" aria-label="Filter by property type">
             {categories.map((item) => <button key={item} type="button" className={`gallery-filter-chip ${category === item ? "is-active" : ""}`} aria-pressed={category === item} onClick={() => setCategory(item)}>{item}</button>)}
           </div>
