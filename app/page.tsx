@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, MoveUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -72,7 +73,8 @@ export default function Home() {
 
       <section className="trade-section" aria-labelledby="trade-heading"><div className="trade-image"><Image src={images.trade} alt="Natural materials and furnishings in a refined interior design setting" fill sizes="50vw" className="cover-image"/></div><div className="trade-copy"><p className="eyebrow section-kicker">For the people who build spaces</p><h2 id="trade-heading">Better spaces<br />are built <em>together.</em></h2><p>We welcome conversations with designers, architects, developers, realtors, and property managers looking for a thoughtful design and furnishing partner.</p><Link href="/trade" className="text-link">Explore a partnership <ArrowRight size={15}/></Link></div></section>
 
-      <section id="inquiry" className="homepage-contact-section section-pad" aria-labelledby="inquiry-heading"><div className="container homepage-contact-inner"><div><p className="eyebrow section-kicker">A conversation starts here</p><h2 id="inquiry-heading">Have a space in mind?</h2></div><div className="homepage-contact-copy"><p>Tell us about the property, the opportunity, and the experience you want to create. A few project details will help us start in the right place.</p><Link href="/quote" className="button button-dark">Discuss your project <ArrowUpRight size={16} /></Link><span className="homepage-contact-note">Interiors · Experiences · Trade</span></div></div></section>m "next/link";
+      <section id="inquiry" className="homepage-contact-section section-pad" aria-labelledby="inquiry-heading"><div className="container homepage-contact-inner"><div><p className="eyebrow section-kicker">A conversation starts here</p><h2 id="inquiry-heading">Have a space in mind?</h2></div><div className="homepage-contact-copy"><p>Tell us about the property, the opportunity, and the experience you want to create. A few project details will help us start in the right place.</p><Link href="/quote" className="button button-dark">Discuss your project <ArrowUpRight size={16} /></Link><span className="homepage-contact-note">Interiors · Experiences · Trade</span></div></div></section>om "next/image";
+import Link from "next/link";
 import { ArrowDown, ArrowRight, ArrowUpRight, MoveUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { ProjectCard } from "@/components/ProjectCard";
