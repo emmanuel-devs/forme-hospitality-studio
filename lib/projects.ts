@@ -77,7 +77,7 @@ export const projects: Project[] = [
     category: "Immersive Experiences",
     type: "Entertainment Room",
     status: "Concept Visualization",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85",
+    image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1800&q=85",
     alt: "Dramatic contemporary interior with sculptural furniture and layered lighting",
     location: "Illustrative bespoke-room concept",
     scope: "Atmosphere concept · Lighting direction · Spatial mood",
@@ -92,8 +92,83 @@ export const projects: Project[] = [
     ],
     gallery: [
       { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85", alt: "Contemporary room with strong architectural lines", caption: "01 / The overall atmosphere" },
-      { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85", alt: "Layered lighting and tactile interior materials", caption: "02 / Light, shadow, and texture" },
-      { image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85", alt: "Curated interior styling and material details", caption: "03 / The finishing language" }
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1600&q=85", alt: "Layered lighting and tactile interior materials", caption: "02 / Light, shadow, and texture" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=1600&q=85", alt: "Curated interior styling and material details", caption: "03 / The finishing language" }
+    ]
+  },
+  {
+    slug: "the-residential-collection",
+    title: "The Residential Collection",
+    category: "Luxury Residential",
+    type: "Living Space",
+    status: "Concept Visualization",
+    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=85",
+    alt: "Quiet luxury residential living space with layered natural textures",
+    location: "Illustrative private-residence concept",
+    scope: "Living room direction · Furnishing palette · Spatial styling",
+    year: "2026",
+    intro: "A residential concept built around quiet confidence, tactile materials, and furniture with a strong sense of proportion. The aim is a home that feels personal and composed rather than staged.",
+    challenge: "Luxury residential spaces need a recognisable point of view while leaving room for the people who live there. Every material and furniture choice should support comfort as well as character.",
+    direction: "Soft stone tones, natural timber, sculptural seating, and considered negative space create an understated composition with warmth and depth.",
+    details: [
+      { title: "Comfort with presence", description: "Generous seating and tactile upholstery make the room inviting without losing its architectural clarity." },
+      { title: "A natural material story", description: "Timber, stone, and woven textures create depth through their finish and contrast." },
+      { title: "Personal, not over-styled", description: "A restrained selection of objects lets the architecture and key furniture pieces remain the focus." }
+    ],
+    gallery: [
+      { image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85", alt: "Residential living room with warm natural materials", caption: "01 / The living space" },
+      { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85", alt: "Sculptural furniture and considered proportions", caption: "02 / Shape and proportion" },
+      { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85", alt: "Calm neutral palette and tactile surfaces", caption: "03 / A restrained material palette" }
+    ]
+  },
+  {
+    slug: "the-boutique-lobby",
+    title: "The Boutique Lobby",
+    category: "Hotels & Boutique Properties",
+    type: "Lobby & Arrival",
+    status: "Concept Visualization",
+    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=2000&q=85",
+    alt: "Boutique hospitality interior with a calm, contemporary arrival atmosphere",
+    location: "Illustrative boutique-hotel arrival concept",
+    scope: "Arrival experience · Guest circulation · Furniture direction",
+    year: "2026",
+    intro: "An arrival-space concept designed to establish the character of a boutique property from the first few steps. A confident focal point, welcoming seating, and layered finishes bring clarity to the guest journey.",
+    challenge: "A lobby must welcome, orient, and accommodate guests without feeling like a corridor or a waiting room. The atmosphere should feel distinctive while supporting practical movement.",
+    direction: "The concept combines a legible circulation route with a tactile reception backdrop, comfortable seating, and warm accent lighting that gives the space an identity throughout the day.",
+    details: [
+      { title: "A clear arrival sequence", description: "Sightlines and furniture placement help guests understand where to go without unnecessary signage." },
+      { title: "A considered first impression", description: "A focused material palette gives the arrival area a memorable identity without visual clutter." },
+      { title: "Comfort in transition", description: "Seating and lighting support short waits, informal meetings, and a more relaxed check-in experience." }
+    ],
+    gallery: [
+      { image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85", alt: "Boutique lobby concept with layered architectural finishes", caption: "01 / The arrival view" },
+      { image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85", alt: "Architectural details and contemporary furniture", caption: "02 / Architectural character" },
+      { image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85", alt: "Warm furniture and finish palette", caption: "03 / Furniture and finish language" }
+    ]
+  },
+  {
+    slug: "the-entertainment-suite",
+    title: "The Entertainment Suite",
+    category: "Immersive Experiences",
+    type: "Entertainment Room",
+    status: "Concept Visualization",
+    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=85",
+    alt: "Contemporary entertainment suite concept with dramatic lighting and comfortable seating",
+    location: "Illustrative bespoke entertainment-room concept",
+    scope: "Entertainment room concept · Lighting layers · Furnishing direction",
+    year: "2026",
+    intro: "A private entertainment-room concept that balances a strong mood with everyday comfort. The design gives the room a distinct identity while keeping seating, circulation, and lighting practical.",
+    challenge: "Entertainment spaces can become crowded with competing screens, furniture, and decorative effects. A coherent hierarchy is needed so the room feels immersive rather than busy.",
+    direction: "A controlled palette, comfortable low-profile seating, and layered lighting establish atmosphere. The focal wall and furniture arrangement are treated as one composition.",
+    details: [
+      { title: "A focused focal wall", description: "The main viewing area is treated as the visual anchor, with surrounding finishes kept quieter." },
+      { title: "Lighting that shifts the mood", description: "Ambient and accent lighting create atmosphere while allowing the room to remain usable." },
+      { title: "Comfort first", description: "Seating positions and circulation are considered together so the experience feels relaxed, not over-designed." }
+    ],
+    gallery: [
+      { image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85", alt: "Entertainment suite concept with composed furniture arrangement", caption: "01 / The room composition" },
+      { image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85", alt: "Material contrast and atmospheric interior detail", caption: "02 / Texture and contrast" },
+      { image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85", alt: "Furniture and warm lighting detail", caption: "03 / The finishing details" }
     ]
   }
 ];
