@@ -16,7 +16,7 @@ const links = [
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const inquiryHref = pathname === "/" ? "#inquiry" : "/#inquiry";
+  const inquiryHref = "/quote";
   return (
     <header className="site-header">
       <div className="nav-shell container">
