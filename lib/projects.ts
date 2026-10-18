@@ -127,7 +127,7 @@ export const projects: Project[] = [
     category: "Hotels & Boutique Properties",
     type: "Lobby & Arrival",
     status: "Concept Visualization",
-    image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85",
+    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85",
     alt: "Boutique hospitality interior with a calm, contemporary arrival atmosphere",
     location: "Illustrative boutique-hotel arrival concept",
     scope: "Arrival experience · Guest circulation · Furniture direction",
@@ -141,9 +141,9 @@ export const projects: Project[] = [
       { title: "Comfort in transition", description: "Seating and lighting support short waits, informal meetings, and a more relaxed check-in experience." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Boutique lobby concept with layered architectural finishes", caption: "01 / The arrival view" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Architectural details and contemporary furniture", caption: "02 / Architectural character" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Warm furniture and finish palette", caption: "03 / Furniture and finish language" }
+      { image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85", alt: "Boutique lobby concept with layered architectural finishes", caption: "01 / The arrival view" },
+      { image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85", alt: "Architectural details and contemporary furniture", caption: "02 / Architectural character" },
+      { image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1800&q=85", alt: "Warm furniture and finish palette", caption: "03 / Furniture and finish language" }
     ]
   },
   {
@@ -152,7 +152,7 @@ export const projects: Project[] = [
     category: "Immersive Experiences",
     type: "Entertainment Room",
     status: "Concept Visualization",
-    image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85",
+    image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=1800&q=85",
     alt: "Contemporary entertainment suite concept with dramatic lighting and comfortable seating",
     location: "Illustrative bespoke entertainment-room concept",
     scope: "Entertainment room concept · Lighting layers · Furnishing direction",
@@ -166,9 +166,9 @@ export const projects: Project[] = [
       { title: "Comfort first", description: "Seating positions and circulation are considered together so the experience feels relaxed, not over-designed." }
     ],
     gallery: [
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Entertainment suite concept with composed furniture arrangement", caption: "01 / The room composition" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Material contrast and atmospheric interior detail", caption: "02 / Texture and contrast" },
-      { image: "https://images.unsplash.com/photo-undefined?auto=format&fit=crop&w=2000&q=85", alt: "Furniture and warm lighting detail", caption: "03 / The finishing details" }
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=1800&q=85", alt: "Entertainment suite concept with composed furniture arrangement", caption: "01 / The room composition" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=1800&q=85", alt: "Material contrast and atmospheric interior detail", caption: "02 / Texture and contrast" },
+      { image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9b?auto=format&fit=crop&w=1800&q=85", alt: "Furniture and warm lighting detail", caption: "03 / The finishing details" }
     ]
   }
 ];
