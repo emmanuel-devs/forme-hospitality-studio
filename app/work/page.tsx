@@ -35,7 +35,7 @@ export default function WorkPage() {
         </div>
       </section>
       <section className="portfolio-cta">
-        <div className="container portfolio-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Have a project in mind?</p><h2>Let’s give it<br /><em>a point of view.</em></h2><Link href="/#inquiry" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link></div>
+        <div className="container portfolio-cta-inner"><p className="eyebrow detail-eyebrow"><span className="eyebrow-line" /> Have a project in mind?</p><h2>Let’s give it<br /><em>a point of view.</em></h2><Link href="/quote" className="button button-light">Discuss your project <ArrowUpRight size={16} /></Link></div>
       </section>
       <footer className="site-footer"><div className="container footer-top"><Link href="/#top" className="wordmark footer-wordmark"><span className="wordmark-main">FORME</span><span className="wordmark-sub">HOSPITALITY STUDIO</span></Link><p>Spaces designed to make people feel something.</p><Link href="/#top" className="back-top">Back to studio ↑</Link></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} FORME Hospitality Studio</span><span>Independent portfolio concept · Not a real client studio</span><span>Interiors · Experiences · Partnerships</span></div></footer>
     </main>
